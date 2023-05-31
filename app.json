@@ -25,18 +25,6 @@
       "description": "The initial admin password.",
       "value": ""
     },
-    "CONFIG_PATH": {
-      "description": "Application config loader path.",
-      "value": "/app/directus.config.js"
-    },
-    "PUBLIC_URL": {
-      "description": "Application public URL.",
-      "value": "/"
-    },
-    "DB_CLIENT": {
-      "description": "Database server type.",
-      "value": "pg"
-    },
     "KEY": {
       "description": "The application key.",
       "generator": "secret"
@@ -48,6 +36,14 @@
     "PORT": {
       "description": "Port to run on.",
       "value": "80"
+    },
+    "PUBLIC_URL": {
+      "description": "Application public URL.",
+      "value": "/"
+    },
+    "DB_CLIENT": {
+      "description": "Database server type.",
+      "value": "pg"
     },
     "CORS_ENABLED": {
       "description": "Enable CORS",
@@ -67,21 +63,10 @@
   "image": "heroku/nodejs",
   "addons": [
     {
-      "as": "MAILGUN",
-      "plan": "mailgun:starter"
-    },
-    {
       "as": "DATABASE",
       "plan": "heroku-postgresql:mini",
       "options": {
         "version": "12"
-      }
-    },
-    {
-      "as": "REDIS",
-      "plan": "heroku-redis:mini",
-      "options": {
-        "version": "6"
       }
     }
   ],
