@@ -5,7 +5,6 @@ module.exports = {
   KEY: process.env.KEY,
   SECRET: process.env.SECRET,
   PORT: process.env.PORT,
-  PUBLIC_URL: `http://0.0.0.0:${process.env.PORT}${process.env.PUBLIC_URL}`,
   DB_CLIENT: process.env.DB_CLIENT,
   DB_CONNECTION_STRING: process.env.DATABASE_URL,
   CORS_ENABLED: process.env.CORS_ENABLED,

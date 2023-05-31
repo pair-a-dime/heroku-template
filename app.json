@@ -33,14 +33,6 @@
       "description": "The application secret key.",
       "generator": "secret"
     },
-    "PORT": {
-      "description": "Port to run on.",
-      "value": "80"
-    },
-    "PUBLIC_URL": {
-      "description": "Application public URL.",
-      "value": "/"
-    },
     "DB_CLIENT": {
       "description": "Database server type.",
       "value": "pg"
