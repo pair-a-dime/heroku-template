@@ -45,6 +45,10 @@
       "description": "The application secret key.",
       "generator": "secret"
     },
+    "PORT": {
+      "description": "Port to run on.",
+      "value": "80"
+    },
     "CORS_ENABLED": {
       "description": "Enable CORS",
       "value": "true"

@@ -11,6 +11,6 @@ module.exports = {
   CORS_ENABLED: process.env.CORS_ENABLED,
   CORS_ORIGIN: process.env.CORS_ORIGIN,
   NODE_ENV: process.env.NODE_ENV,
-  EXTENSIONS_PATH: "/directus/extensions",
-  STORAGE_LOCAL_ROOT: "/directus/uploads",
+  EXTENSIONS_PATH: "extensions",
+  STORAGE_LOCAL_ROOT: "uploads",
 };
