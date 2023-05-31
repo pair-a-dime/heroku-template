@@ -173,14 +173,14 @@
     },
     {
       "as": "DATABASE",
-      "plan": "heroku-postgresql:hobby-dev",
+      "plan": "heroku-postgresql:mini",
       "options": {
         "version": "12"
       }
     },
     {
       "as": "REDIS",
-      "plan": "heroku-redis:hobby-dev",
+      "plan": "heroku-redis:mini",
       "options": {
         "version": "6"
       }
